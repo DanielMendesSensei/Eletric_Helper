@@ -1,0 +1,17 @@
+{
+  "name": "eletric_helper",
+  "version": "0.1.0-alpha",
+  "description": "Uma aplicação que ajuda o profissional eletricista a dimensionar o disjuntor geral ideal, além de estimar o gasto da instalção elética ",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
+}

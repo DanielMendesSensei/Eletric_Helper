@@ -1,0 +1,72 @@
+@font-face
+{
+    font-family: 'MyFont';
+    src: url('../fonts/HARLOWS.TTF');
+}
+
+*,
+*:before,
+*:after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+}
+
+:root
+{
+    --color1: #045496;
+    --color2: #007fff;
+    --color3: #f1f1f1;
+    --color4: #111111;
+    --color5: #333333;
+    --color6: hsla(0, 0%, 0%, 0.3);
+    --color7: #f77f00;
+    --color8: #ffa14d;
+
+    --text-size1: 1.0rem;
+    --text-size2: 1.2rem;
+    --text-size3: 1.3rem;
+    --text-size4: 1.4rem;
+    --text-size5: 1.5rem;
+    --text-size6: 1.6rem;
+
+}
+
+body
+{ 
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        var(--color2),
+        var(--color1)
+    );
+}
+
+header
+{
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header > img
+{
+    width: 220px;
+
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+    background-color: var(--color3);
+    width: 650px;
+    height: 450px;
+}
